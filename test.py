@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 import ArducamDepthCamera as ac
 
-MAX_DISTANCE = 1000
+MAX_DISTANCE = 255
 VIDEO_FILE = "sample_rgbd.mp4"
 
 def process_frame(depth_buf: np.ndarray, amplitude_buf: np.ndarray) -> np.ndarray:
